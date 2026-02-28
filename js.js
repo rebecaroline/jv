@@ -44,11 +44,11 @@ function calcular(idade,peso){
 }
 
 function classificarImc(imc){
-    if(imc< 20) return"abaixo do peso";
-    if(imc< 28) return "normal";
-    if(imc< 30) return "sobrepeso";
+    if(imc< 18) return"adolescente";
+    if(imc< 30) return "jovem";
+    if(imc< 60) return "idoso";
 
-    return "Obesidade";
+    return "Idoso";
 }
 
 function organizarDados(dadosUsuario, imc, classificacao){
